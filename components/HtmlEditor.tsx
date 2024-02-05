@@ -8,7 +8,6 @@ import 'ace-builds/src-noconflict/theme-monokai';
 
 export default function HtmlEditor({ value, onChange }: any) {
 
-
     return (
         <div className='flex gap-4 justify-center w-full' >
             <AceEditor

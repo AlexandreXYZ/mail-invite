@@ -5,17 +5,9 @@ import { mailSender } from "@/services/mailSender";
 import { useState } from "react";
 
 export default function Home() {
-  const defaultContent = `<head>
-  <link href="https://cdn.tailwindcss.com" rel="stylesheet"></link>
-</head>
-<body>
-
-</body>
-`
-
   const [subject, setSubject] = useState('');
   const [email, setEmail] = useState('');
-  const [content, setContent] = useState(defaultContent);
+  const [content, setContent] = useState('<div></div>');
 
   const onSend = async () => {
     mailSender({ subject, email, content }).then((res: Response) => {

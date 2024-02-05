@@ -13,7 +13,7 @@ export default function HtmlEditor({ value, onChange }: any) {
             <div className='h-[200px] resize-y overflow-auto pb-2'>
                 <AceEditor
                     mode="html"
-                    theme="Amy"
+                    theme="light"
                     width='100%'
                     height='100%'
                     value={value}

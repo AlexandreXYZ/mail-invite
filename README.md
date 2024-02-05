@@ -1,3 +1,22 @@
+### Mail Invite
+
+Esse codigo tem como objetivo você escrever um email atravez de um editor HTML, e depois de preencher o titulo, o destinatário e suas credenciais no .env.local, então ao clicar em enviar seu email será enviado.
+
+----
+### Atenção
+- Nesse momento só funciona com suas credenciais do email outlook;
+- Não esqueça de olhar o arquivo exemple.env;
+- Codigo livre, faça seu fork e divirta-se.
+
+----
+### Getting Started
+- `yarn install` | `npm install`
+- `yarn dev`
+
+----
+node version: v21.4.0 
+
+<!--
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +53,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-->

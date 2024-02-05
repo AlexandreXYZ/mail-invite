@@ -1,20 +1,37 @@
-### Mail Invite
 
-Esse codigo tem como objetivo você escrever um email atravez de um editor HTML, e depois de preencher o titulo, o destinatário e suas credenciais no .env.local, então ao clicar em enviar seu email será enviado.
+# Mail Invite
 
-----
-### Atenção
-- Nesse momento só funciona com suas credenciais do email outlook;
-- Não esqueça de olhar o arquivo exemple.env;
-- Codigo livre, faça seu fork e divirta-se.
+O Mail Invite é uma ferramenta que permite criar e enviar e-mails diretamente de um editor HTML intuitivo. Ideal para quem busca uma forma prática de enviar e-mails personalizados, o Mail Invite oferece a facilidade de compor seu e-mail visualmente e enviá-lo com apenas alguns cliques.
 
-----
-### Getting Started
-- `yarn install` | `npm install`
-- `yarn dev`
+## Recursos
 
-----
-node version: v21.4.0 
+- **Editor HTML Integrado**: Componha seus e-mails com facilidade usando um editor HTML.
+- **Envio Simples**: Preencha o título, destinatário e suas credenciais no arquivo `.env.local` e clique em enviar. Seu e-mail será entregue instantaneamente.
+- **Suporte Outlook**: Atualmente, o envio de e-mails é suportado exclusivamente através de credenciais do Outlook.
+
+## Atenção
+
+- Este projeto suporta apenas credenciais de e-mail do Outlook no momento.
+- É essencial conferir o arquivo `example.env` para configurar corretamente suas credenciais antes de tentar enviar um e-mail.
+- O código é de código aberto: sinta-se livre para fazer um fork e adaptá-lo conforme necessário.
+
+## Primeiros Passos
+
+Para começar a usar o Mail Invite, siga estes passos:
+
+1. Clone o repositório para sua máquina local.
+2. Instale as dependências necessárias com:
+   - Yarn: `yarn install`
+   - NPM: `npm install`
+3. Inicie o servidor de desenvolvimento com:
+   - Yarn: `yarn dev`
+   - NPM: `npm run dev`
+
+Certifique-se de ter a versão `v21.4.0` do Node.js instalada para evitar problemas de compatibilidade.
+
+## Contribuindo
+
+Contribuições são muito bem-vindas! Se você tem uma ideia para melhorar este projeto, sinta-se à vontade para fazer um fork e enviar um pull request. Juntos, podemos tornar o Mail Invite ainda melhor!
 
 <!--
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
